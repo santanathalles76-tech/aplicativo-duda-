@@ -1,0 +1,12 @@
+node_modules/
+.expo/
+dist/
+ios/
+*.log
+.env
+.env.*
+
+# Expo web build
+dist/
+.expo/
+node_modules/

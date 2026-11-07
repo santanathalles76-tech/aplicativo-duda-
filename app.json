@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "DUDA",
+    "slug": "duda",
+    "scheme": "duda",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F7F5EC",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "br.com.duda.app"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash.png",
+          "imageWidth": 220,
+          "resizeMode": "contain",
+          "backgroundColor": "#F7F5EC"
+        }
+      ]
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/icons/icon.png"
+    }
+  }
+}

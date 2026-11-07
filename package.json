@@ -1,0 +1,43 @@
+{
+  "name": "duda",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "ios": "expo start --ios",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "fix-deps": "expo install --fix",
+    "web": "expo start --web",
+    "build:web": "expo export --platform web",
+    "preview:web": "npx serve dist -l 4173"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "*",
+    "@react-native-async-storage/async-storage": "*",
+    "@react-native-community/datetimepicker": "*",
+    "expo": "~57.0.32",
+    "expo-constants": "~57.0.23",
+    "expo-linking": "~57.0.13",
+    "expo-router": "~57.0.30",
+    "expo-splash-screen": "~57.0.10",
+    "expo-status-bar": "~57.0.1",
+    "react": "*",
+    "react-native": "*",
+    "react-native-safe-area-context": "*",
+    "react-native-screens": "*",
+    "zod": "^3.23.8",
+    "react-dom": "*",
+    "react-native-web": "*",
+    "@expo/metro-runtime": "*"
+  },
+  "devDependencies": {
+    "@types/react": "*",
+    "typescript": "*",
+    "tsx": "*"
+  },
+  "engines": {
+    "node": ">=22.13.0 <23"
+  }
+}
